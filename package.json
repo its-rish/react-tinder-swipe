@@ -1,0 +1,39 @@
+{
+  "name": "react-tinder-swipe",
+  "version": "1.0.1",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c && tsc --emitDeclarationOnly",
+    "build:types": "rollup -c rollup.dts.config.mjs"
+  },
+  "keywords": [],
+  "author": "Ritwik",
+  "license": "ISC",
+  "description": "Its a swipe game like tinder or other dating aplication.wher by swiping it right or left you can accept or reject the user",
+  "dependencies": {
+    "framer-motion": "^12.19.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.6",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.4",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "autoprefixer": "^10.4.21",
+    "rollup": "^4.46.2",
+    "rollup-plugin-dts": "^6.2.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.9.2"
+  }
+}
