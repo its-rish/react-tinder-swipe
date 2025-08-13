@@ -10,7 +10,7 @@ import terser from '@rollup/plugin-terser';
 import autoprefixer from 'autoprefixer';
 import { createRequire } from 'module';
 const require = createRequire(import.meta.url);
-import pkg from './package.json' assert { type: 'json' };
+const pkg = require('./package.json');
 
 
 export default [
