@@ -1,6 +1,6 @@
 {
   "name": "react-tinder-swipe",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -14,7 +14,7 @@
   },
   "keywords": [],
   "author": "Ritwik",
-  "license": "ISC",
+  "license": "MIT",
   "description": "Its a swipe game like tinder or other dating aplication.wher by swiping it right or left you can accept or reject the user",
   "dependencies": {
     "framer-motion": "^12.19.1",
